@@ -1,0 +1,389 @@
+.logo {
+  display: flex;
+  margin: 20px;
+  justify-content: space-around;
+}
+.btn {
+  border-radius: 2em !important;
+  background-color: #000 !important;
+  padding: 10px;
+  color: #ffffff;
+  font-family: "arial" !important;
+}
+
+.skill_container {
+  margin-bottom: 20%;
+}
+.skills_text {
+  text-align: center;
+}
+.Design {
+  margin-top: 2em;
+  text-align: center;
+}
+.graphic_container {
+  border: 1px solid #755cde;
+  background-color: #755cde;
+  border-radius: 5px;
+  padding-top: 20px;
+  padding-left: 80px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+}
+.image_grid {
+  display: flex;
+  justify-content: center;
+  margin-top: 5em;
+  gap: 20px;
+}
+.img1 {
+  position: relative;
+  left: 50%;
+}
+.graphic {
+  font-size: 18px;
+  color: #ffffff;
+  position: relative;
+  right: 50%;
+  top: 7em;
+}
+.graphic_container2 {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.ui_container {
+  padding-left: 80px;
+  padding-right: 20px;
+  height: 15vh;
+  border: 1px solid #f6a560;
+  border-radius: 5px;
+  width: 80%;
+  background-color: #f6a560;
+}
+.ui {
+  font-size: 18px;
+  position: relative;
+  right: 4em;
+  color: #ffffff;
+  top: 3em;
+}
+.img2 {
+  position: relative;
+  top: 1em;
+  left: 2em;
+}
+.img3 {
+  position: relative;
+  top: 1em;
+  left: 2em;
+}
+.img4 {
+  position: relative;
+  top: 1em;
+  left: 11em;
+}
+.img5 {
+  position: relative;
+  top: 1em;
+  left: 4em;
+}
+.img6 {
+  position: relative;
+  top: 1em;
+  left: 4em;
+}
+
+.app_container {
+  padding-left: 80px;
+  padding-right: 20px;
+  height: 15vh;
+  width: 80%;
+  border: 1px solid #f39e9e;
+  background-color: #f39e9e;
+  border-radius: 5px;
+}
+.app {
+  font-size: 18px;
+  position: relative;
+  right: 4em;
+  color: #ffffff;
+  top: 3em;
+}
+.graphic3 {
+  display: flex;
+  gap: 20px;
+}
+.illustration_container {
+  padding-left: 80px;
+  padding-right: 20px;
+  height: 15vh;
+  width: 100%;
+  border: 1px solid #eb7565;
+  background-color: #eb7565;
+  border-radius: 5px;
+}
+.Illustration {
+  font-size: 18px;
+  position: relative;
+  right: 4em;
+  color: #ffffff;
+  top: 3em;
+}
+.graphic_container3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10;
+
+  justify-content: space-between;
+}
+.graphic_motion {
+  padding-left: 80px;
+  padding-right: 20px;
+  height: 15vh;
+  width: 100%;
+  border: 1px solid #61c4b7;
+  background-color: #61c4b7;
+  border-radius: 5px;
+}
+.graphic_photographic {
+  padding-left: 80px;
+  padding-right: 20px;
+  height: 15vh;
+  width: 100%;
+  border: 1px solid #552049;
+  background-color: #552049;
+  border-radius: 5px;
+}
+.photo {
+  font-size: 18px;
+  position: relative;
+  right: 4em;
+  color: #ffffff;
+  top: 3em;
+}
+.motion {
+  font-size: 18px;
+  position: relative;
+  right: 4em;
+  color: #ffffff;
+  top: 3em;
+}
+
+
+/* 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mobile */
+
+
+@media (max-width:500px) {
+  .logo {
+    display: flex;
+    margin: 10px;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .logo > img{
+ width: 10%;
+  }
+  .btn {
+    border-radius: 2em !important;
+    background-color: #000 !important;
+    padding: 10px;
+    color: #ffffff;
+    font-family: "arial" !important;
+  }
+  
+  .skill_container {
+    margin-bottom: 20%;
+  }
+  .skills_text {
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .Design {
+    margin-top: 2em;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .graphic_container {
+    border: 1px solid #755cde;
+    background-color: #755cde;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-left: 80px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+  }
+  .image_grid {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5em;
+    margin-left: 20px;
+    margin-right: 20px;
+    gap: 20px;
+  }
+  .img1 {
+    position: relative;
+    width: 40%;
+    left: 50%;
+  }
+  .graphic {
+    font-size: 18px;
+    color: #ffffff;
+    position: relative;
+    right: 20%;
+    font-weight: 600;
+    top: 1em;
+  }
+  .graphic_container2 {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .ui_container {
+    padding-left: 80px;
+    padding-right: 20px;
+    height: 15vh;
+    border: 1px solid #f6a560;
+    border-radius: 5px;
+    width: 80%;
+    background-color: #f6a560;
+  }
+  .ui {
+    font-size: 18px;
+    position: relative;
+    right: 4em;
+    font-weight: 600;
+    color: #ffffff;
+    top: 2em;
+  }
+  .img2 {
+    position: relative;
+    top: 1em;
+    left: 2em;
+  }
+  .img3 {
+    position: relative;
+    top: 1em;
+    left: 2em;
+  }
+  .img4 {
+    position: relative;
+    top: 1em;
+    left: 11em;
+  }
+  .img5 {
+    position: relative;
+    top: 1em;
+    left: 8em;
+    width: 40%;
+  }
+  .img6 {
+    position: relative;
+    width: 40%;
+    top: 1em;
+    left: 8em;
+  }
+  
+  .app_container {
+    padding-left: 80px;
+    padding-right: 20px;
+    height: 15vh;
+    width: 80%;
+    border: 1px solid #f39e9e;
+    background-color: #f39e9e;
+    border-radius: 5px;
+  }
+  .app {
+    font-size: 18px;
+    position: relative;
+    right: 4em;
+    font-weight: 600;
+    color: #ffffff;
+    top: 2em;
+  }
+  .graphic3 {
+    display: flex;
+    gap: 20px;
+  }
+  .illustration_container {
+    padding-left: 80px;
+    padding-right: 20px;
+    height: 15vh;
+    width: 100%;
+    border: 1px solid #eb7565;
+    background-color: #eb7565;
+    border-radius: 5px;
+  }
+  .Illustration {
+    font-size: 18px;
+    position: relative;
+    right: 4em;
+    font-weight: 600;
+    color: #ffffff;
+    top: 2em;
+  }
+  .graphic_container3 {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+  }
+  .graphic_motion {
+    padding-left: 80px;
+    padding-right: 20px;
+    height: 15vh;
+    width: 100%;
+    border: 1px solid #61c4b7;
+    background-color: #61c4b7;
+    border-radius: 5px;
+  }
+  .graphic_photographic {
+    padding-left: 80px;
+    padding-right: 20px;
+    height: 15vh;
+    position: relative;
+    top: 15px;
+    width: 100%;
+    border: 1px solid #552049;
+    background-color: #552049;
+    border-radius: 5px;
+  }
+  .photo {
+    font-size: 18px;
+    position: relative;
+    right: 4em;
+    color: #ffffff;
+    top: 1em;
+  }
+  .motion {
+    font-size: 18px;
+    position: relative;
+    right: 4em;
+    color: #ffffff;
+    top: 1em;
+  }
+  
+}

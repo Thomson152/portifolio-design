@@ -1,0 +1,56 @@
+.container {
+  margin-top: 7rem;
+  align-items: center;
+}
+.profile {
+  position: relative;
+  left: 10em;
+}
+.profile_main {
+  position: relative;
+  top: 5em;
+}
+.btn2 {
+  background-color: #eb7565 !important;
+  padding: 20px;
+  border: #eb7565 !important;
+}
+
+
+
+
+
+
+
+
+@media (max-width:500px) {
+  .container {
+    margin-top: 5rem;
+    align-items: center;
+  }
+  .profile {
+    position: relative;
+    left: 4em;
+  }
+  .header_h2{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 700;
+    font-size: 25px;
+    }
+  .profile_main {
+    position: relative;
+    top: 2em;
+  }
+  .profile_text{
+  margin: 2px;
+  }
+  .btn2 {
+    margin-top: 10px;
+    background-color: #eb7565 !important;
+    padding: 20px;
+    border: #eb7565 !important;
+  }
+}
+
+
